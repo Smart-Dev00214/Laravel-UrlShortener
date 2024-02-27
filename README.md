@@ -266,20 +266,6 @@ $clicks = ClickService::get([
     'offset' => 1500
 ]);
 ```
-
-## UTM Support
-
-When creating a Short URL, the following UTM parameters are available to attach to the Short URL for advanced tracking of your Short Urls.
-
-- utm_id
-- utm_campaign
-- utm_source
-- utm_medium
-- utm_content
-- utm_term
-
-UTM information is hidden in the Short URL identifier and clicks are filterable by UTM parameters.
-
 ## Testing
 
 ```bash
